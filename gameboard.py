@@ -30,7 +30,7 @@ class GameBoard:
 
         return self.full_board
 
-    def creat_numbers_of_mines(self, full_board):
+    def create_numbers_of_mines(self, full_board):
         for i in range(1, len(self.full_board) - 1):
             for j in range(1, len(self.full_board[i]) - 1):
                 k = 0
