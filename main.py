@@ -41,9 +41,9 @@ def player_move(used_cords):
 if __name__ == "__main__":
     board = GameBoard()
 
-    full_board = board.creat_board(30, 10) #columns, rows
+    full_board = board.create_board(30, 10) #columns, rows
 
-    board.creat_numbers_of_mines(full_board)
+    board.create_numbers_of_mines(full_board)
 
     board.print_board(full_board)
 
