@@ -4,7 +4,7 @@ class GameBoard:
     def __init__(self):
         super().__init__()
 
-    def creat_board(self, colums, rows):
+    def create_board(self, colums, rows):
         self.rows_on_board = []
         self.full_board = []
 
