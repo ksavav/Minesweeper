@@ -8,7 +8,7 @@ class GamePlay(GameBoard):
 
 
     def playerMove(self, full_board, used_cord):
-        # for console aplication 
+        # for console application 
         # while True:
         #     try:
         #         # user_move = input("Make your move. Type the number of the row and the number of the column u want to uncover (f.e. 9:2 <- row 9, column 2): \n")
